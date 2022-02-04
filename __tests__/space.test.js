@@ -15,11 +15,15 @@ describe('AgeCalculator', () => {
     expect(ageCalculator.mercuryAge(1)).toEqual(4.166666666666667);
   });
 
-  test('should return how many mercury years the user has left to live based on age and life expectancy', () => {
+  test('should return how many Mercury years the user has left to live based on age and life expectancy', () => {
     expect(ageCalculator.mercuryLeft(99, 24)).toEqual(312.5);
   });
 
   test('should convert one year on Earth into one year on Venus', () => {
     expect(ageCalculator.venusAge(1)).toEqual(1.6129032258064517);
   });
+
+  test('should return how many Venus years the user has left to live based on age and life expectancy', () => {
+    expect(ageCalculator.venusLeft(99, 24)).toEqual(120.967742);
+  })
 });

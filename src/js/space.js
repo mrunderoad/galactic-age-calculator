@@ -16,9 +16,9 @@ export class AgeCalculator {
     return years / .62;
   };
 
-  // venusLeft() {
+  venusLeft() {
 
-  // }
+  };
 
   // marsAge(years) {
 
