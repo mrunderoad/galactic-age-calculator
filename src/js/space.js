@@ -36,9 +36,9 @@ export class AgeCalculator {
     return this.lifeExpectancy / .0084 - this.years / .0084;
   };
 
-  // earthLeft() {
-
-  // }
+  earthLeft() {
+    
+  };
 
   // overExpected() {
 
