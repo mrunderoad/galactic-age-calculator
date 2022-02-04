@@ -25,13 +25,12 @@ export class AgeCalculator {
   };
 
   marsLeft() {
-   
-
+    return this.lifeExpectancy / 1.88 - this.years / 1.88;
   }
 
-  // jupiterAge(years) {
+  jupiterAge(years) {
 
-  // }
+  }
 
   // jupiterLeft() {
 
