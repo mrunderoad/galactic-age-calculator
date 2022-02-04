@@ -1,19 +1,36 @@
 body {
-  background-color: rgb(87, 85, 85);
+  background-image: url("https://www.augie.edu/sites/default/files/styles/16_9_large_2x/public/11x17%20Neil%20deGrasse%20Tyson%20FLATTENED%20%281%29.jpg?itok=gNTTv6JB");
+  background-position: fixed;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.644);
   margin-top: 3%;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 1%;
+  color: white;
 }
 
 .page-1 {
+  margin-top: 10%;
   color: white;
   text-align: center;
+}
+
+.start-btn {
+  margin-top: 6%;
+  margin-left: 4%;
+  background-color: rgba(240, 255, 255, 0);
+  border: none;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 50%;
+  
 }
 
 ul {
@@ -33,8 +50,25 @@ ul {
 }
 
 .card {
-  margin-top: 7%;
+  font-size: 15px;
+  margin-top: 2%;
   margin-left: 35%;
   margin-right: 35%;
   text-align: center;
+  background-color: rgba(85, 107, 47, 0.212);
+  color: aliceblue;
+}
+
+.card2 {
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  background-color: rgba(85, 107, 47, 0.212);
+  color: aliceblue;
+}
+
+#back {
+  display: none;
+  margin-left: 50%;
 }
