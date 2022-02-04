@@ -20,9 +20,9 @@ export class AgeCalculator {
     return this.lifeExpectancy / .62 - this.years / .62;
   };
 
-  // marsAge(years) {
+  marsAge(years) {
 
-  // }
+  }
 
   // marsLeft() {
 

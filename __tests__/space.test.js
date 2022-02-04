@@ -25,5 +25,9 @@ describe('AgeCalculator', () => {
 
   test('should return how many Venus years the user has left to live based on age and life expectancy', () => {
     expect(ageCalculator.venusLeft(99, 24)).toEqual(120.96774193548387);
-  })
+  });
+
+  test('should convert one year on Earth into one year on Mars', () => {
+    expect(ageCalculator.marsAge(1)).toEqual(0.5319148936170213);
+  });
 });
