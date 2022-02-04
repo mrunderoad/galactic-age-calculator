@@ -1,4 +1,3 @@
-// import { test } from 'media-typer';
 import { AgeCalculator } from './../src/js/space.js';
 
 describe('AgeCalculator', () => {
@@ -18,5 +17,9 @@ describe('AgeCalculator', () => {
 
   test('should return how many mercury years the user has left to live based on age and life expectancy', () => {
     expect(ageCalculator.mercuryLeft(99, 24)).toEqual(312.5);
+  });
+
+  test('should convert one year on Earth into one year on Venus', () => {
+    expect(ageCalculator.venusAge(1)).toEqual(1.61290323);
   });
 });

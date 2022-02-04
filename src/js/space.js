@@ -12,9 +12,9 @@ export class AgeCalculator {
     return this.lifeExpectancy / .24 - this.years / .24;
   };
 
-  // venusAge(years) {
+  venusAge(years) {
 
-  // }
+  }
 
   // venusLeft() {
 
