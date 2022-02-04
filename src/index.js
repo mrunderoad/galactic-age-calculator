@@ -15,9 +15,11 @@ $("form#submit-planet").submit(function(event) {
   let mars = calculator.marsAge();
   if(planet === "Mars") {
     console.log(planet);
-    console.log(mars)
+    console.log(years);
+    console.log(calculator.marsAge());
     $(".planet-span").html(mars);
-  }
+  } else
+  console.log(lifeExpectancy);
 
 });
 
