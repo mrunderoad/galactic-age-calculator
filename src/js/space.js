@@ -9,8 +9,8 @@ export class AgeCalculator {
   };
 
   mercuryLeft() {
-
-  }
+    return this.lifeExpectancy / .24 - this.years / .24;
+  };
 
   // venusAge(years) {
 
