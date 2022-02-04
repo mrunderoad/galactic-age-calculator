@@ -39,6 +39,11 @@ $("form#submit-planet").submit(function(event) {
     $(".planet-span").html(jupiter);
     $(".planet-left-span").html(jupiterExpectancy);
     $(".over-lived").html(over)
+    if (years > lifeExpectancy) {
+      $(".results").hide();
+      $(".no-way").show();
+      $(".over-lived").html(over);
+    }
   } else if (planet === "Mercury") {
     $(".page-2").hide();
     $(".results").show();
@@ -46,6 +51,11 @@ $("form#submit-planet").submit(function(event) {
     $(".planet-span").html(mercury);
     $(".planet-left-span").html(mercuryExpectancy);
     $(".over-lived").html(over)
+    if (years > lifeExpectancy) {
+      $(".results").hide();
+      $(".no-way").show();
+      $(".over-lived").html(over);
+    }
   } else if (planet === "Venus") {
     $(".page-2").hide();
     $(".results").show();
@@ -53,6 +63,11 @@ $("form#submit-planet").submit(function(event) {
     $(".planet-span").html(venus);
     $(".planet-left-span").html(venusExpectancy);
     $(".over-lived").html(over)
+    if (years > lifeExpectancy) {
+      $(".results").hide();
+      $(".no-way").show();
+      $(".over-lived").html(over);
+    }
   } else if (planet === "Earth") {
     $(".page-2").hide();
     $(".results").show();
@@ -60,9 +75,12 @@ $("form#submit-planet").submit(function(event) {
     $(".planet-span").html(years);
     $(".planet-left-span").html(earth);
     $(".over-lived").html(over)
+    if (years > lifeExpectancy) {
+      $(".results").hide();
+      $(".no-way").show();
+      $(".over-lived").html(over);
+    }
   }
-  
-
 });
 
 $(".start-btn").on("click", function () {
