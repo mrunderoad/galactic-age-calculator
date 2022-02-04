@@ -29,7 +29,7 @@ export class AgeCalculator {
   }
 
   jupiterAge(years) {
-    return years / .0084;
+    return years / 11.86;
   }
 
   jupiterLeft(lifeExpectancy, years) {

@@ -27,7 +27,7 @@ $("form#submit-planet").submit(function(event) {
   let badVenus = over / .0084;
   if (planet === "Mars") {
     $(".page-2").hide();
-    $(".results").show();
+    $(".results").fadeIn();
     $(".chosen-planet").html(planet);
     $(".planet-span").html(mars);
     $(".planet-left-span").html(marsExpectancy); 
@@ -38,7 +38,7 @@ $("form#submit-planet").submit(function(event) {
     }
   } else if (planet === "Jupiter") {
     $(".page-2").hide();
-    $(".results").show();
+    $(".results").fadeIn();
     $(".chosen-planet").html(planet);
     $(".planet-span").html(jupiter);
     $(".planet-left-span").html(jupiterExpectancy);
@@ -50,7 +50,7 @@ $("form#submit-planet").submit(function(event) {
     }
   } else if (planet === "Mercury") {
     $(".page-2").hide();
-    $(".results").show();
+    $(".results").fadeIn();
     $(".chosen-planet").html(planet);
     $(".planet-span").html(mercury);
     $(".planet-left-span").html(mercuryExpectancy);
@@ -62,7 +62,7 @@ $("form#submit-planet").submit(function(event) {
     }
   } else if (planet === "Venus") {
     $(".page-2").hide();
-    $(".results").show();
+    $(".results").fadeIn();
     $(".chosen-planet").html(planet);
     $(".planet-span").html(venus);
     $(".planet-left-span").html(venusExpectancy);
@@ -74,7 +74,7 @@ $("form#submit-planet").submit(function(event) {
     }
   } else if (planet === "Earth") {
     $(".page-2").hide();
-    $(".results").show();
+    $(".results").fadeIn();
     $(".chosen-planet").html(planet);
     $(".planet-span").html(years);
     $(".planet-left-span").html(earth);
@@ -90,4 +90,10 @@ $("form#submit-planet").submit(function(event) {
 $(".start-btn").on("click", function () {
   $(".page-1").hide();
   $(".page-2").show();
+});
+
+$("#back").on("click", function () {
+  $(".results").hide();
+  $(".no-way").hide();
+  $(".page-2").show()
 });

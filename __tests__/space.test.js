@@ -36,7 +36,7 @@ describe('AgeCalculator', () => {
   });
 
   test('should convert one year on Earth into one year on Jupiter', () => {
-    expect(ageCalculator.jupiterAge(1)).toEqual(119.04761904761905);
+    expect(ageCalculator.jupiterAge(1)).toEqual(0.08431703204047218);
   });
 
   test('should return how many Jupiter years the user has left to live based on age and life expectancy', () => {
