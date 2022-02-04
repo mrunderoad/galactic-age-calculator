@@ -2,42 +2,42 @@ export class AgeCalculator {
   constructor(years, lifeExpectancy) {
   this.years = years;
   this.lifeExpectancy = lifeExpectancy;    
-  }
+  };
 
-  mercuryAge(years) {
-
-  }
-
-  mercuryLeft() {
+  mercuryAge() {
 
   }
 
-  venusAge(years) {
+  // mercuryLeft() {
 
-  }
+  // }
 
-  venusLeft() {
+  // venusAge(years) {
 
-  }
+  // }
 
-  marsAge(years) {
+  // venusLeft() {
 
-  }
+  // }
 
-  marsLeft() {
+  // marsAge(years) {
 
-  }
+  // }
 
-  jupiterAge(years) {
+  // marsLeft() {
 
-  }
+  // }
 
-  jupiterLeft() {
+  // jupiterAge(years) {
 
-  }
+  // }
 
-  overExpected() {
-    
-  }
+  // jupiterLeft() {
+
+  // }
+
+  // overExpected() {
+
+  // }
 
 }

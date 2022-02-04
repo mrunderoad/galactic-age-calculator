@@ -10,4 +10,8 @@ describe('AgeCalculator', () => {
     expect(ageCalculator.years).toEqual(24);
     expect(ageCalculator.lifeExpectancy).toEqual(99);
   });
-})
+
+  test('should convert one year on Earth into one year on Mercury', () => {
+    expect(ageCalculator.mercuryAge(1)).toEqual(4.166666666666667);
+  });
+});
