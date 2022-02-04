@@ -13,12 +13,33 @@ body {
   margin-right: 30%;
   padding: 1%;
   color: white;
+  border-radius: 5px;
 }
 
 .page-1 {
   margin-top: 10%;
   color: white;
   text-align: center;
+}
+
+.info, .planets, .and {
+  text-shadow: 1px 2px 3px rgb(255, 0, 0);
+}
+
+.header, .intro, .start {
+  text-shadow: 2px 3px 4px rgb(0, 0, 0);
+}
+
+.start-btn {
+  color: rgb(0, 0, 0);
+}
+
+.mars, .mercury {
+  text-shadow: 2px 3px 4px rgb(40, 240, 223);
+}
+
+.jupiter, .venus {
+  text-shadow: 2px 3px 4px rgb(190, 27, 255);
 }
 
 .start-btn {
@@ -55,8 +76,9 @@ ul {
   margin-left: 35%;
   margin-right: 35%;
   text-align: center;
-  background-color: rgba(85, 107, 47, 0.212);
-  color: aliceblue;
+  background-color: rgba(102, 255, 242, 0.212);
+  color: rgb(145, 255, 0);
+  text-shadow: 2px 2px 3px green;
 }
 
 .card2 {
@@ -71,4 +93,15 @@ ul {
 #back {
   display: none;
   margin-left: 50%;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(153, 2, 153);
+  border: none;
+  border-radius: 10px;
+}
+
+#back:hover, #choose-btn:hover {
+  background-color: rgba(0, 0, 0, 0.493);
 }

@@ -36,6 +36,7 @@ $("form#submit-planet").submit(function(event) {
       $(".results").hide();
       $(".no-way").show();
       $(".over-lived").html(badMars);
+      $(".earth-year").html(over);
     }
   } else if (planet === "Jupiter") {
     $(".page-2").hide();
@@ -48,6 +49,7 @@ $("form#submit-planet").submit(function(event) {
       $(".results").hide();
       $(".no-way").show();
       $(".over-lived").html(badJupiter);
+      $(".earth-year").html(over);
     }
   } else if (planet === "Mercury") {
     $(".page-2").hide();
@@ -60,6 +62,7 @@ $("form#submit-planet").submit(function(event) {
       $(".results").hide();
       $(".no-way").show();
       $(".over-lived").html(badMercury);
+      $(".earth-year").html(over);
     }
   } else if (planet === "Venus") {
     $(".page-2").hide();
@@ -72,6 +75,7 @@ $("form#submit-planet").submit(function(event) {
       $(".results").hide();
       $(".no-way").show();
       $(".over-lived").html(badVenus);
+      $(".earth-year").html(over);
     }
   } else if (planet === "Earth") {
     $(".page-2").hide();
@@ -84,6 +88,7 @@ $("form#submit-planet").submit(function(event) {
       $(".results").hide();
       $(".no-way").show();
       $(".over-lived").html(over);
+      $(".earth-year").html(over);
     }
   }
 });
