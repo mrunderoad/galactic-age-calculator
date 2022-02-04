@@ -31,11 +31,15 @@ describe('AgeCalculator', () => {
     expect(ageCalculator.marsAge(1)).toEqual(0.5319148936170213);
   });
 
-  test('should return how many Mars years the user has left ot live based on age and life expectancy', () => {
+  test('should return how many Mars years the user has left to live based on age and life expectancy', () => {
     expect(ageCalculator.marsLeft(99, 24)).toEqual(39.8936170212766);
   });
 
   test('should convert one year on Earth into one year on Jupiter', () => {
     expect(ageCalculator.jupiterAge(1)).toEqual(119.04761904761905);
+  });
+
+  test('should return how many Jupiter years the user has left to live based on age and life expectancy', () => {
+    expect(ageCalculator.jupiterLeft(99, 24)).toEqual(8928.57142857143);
   });
 });

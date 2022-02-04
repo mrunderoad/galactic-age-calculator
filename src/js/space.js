@@ -32,9 +32,9 @@ export class AgeCalculator {
     return years / .0084;
   };
 
-  // jupiterLeft() {
-
-  // }
+  jupiterLeft() {
+    
+  };
 
   // earthLeft() {
 
