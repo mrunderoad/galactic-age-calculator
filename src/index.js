@@ -12,11 +12,56 @@ $("form#submit-planet").submit(function(event) {
   let lifeExpectancy = parseInt($("#expectancy").val());
   let planet = $("input:radio[name=planet]:checked").val();
   let mars = calculator.marsAge(years);
-  if(planet === "Mars") {
+  let marsExpectancy = calculator.marsLeft(lifeExpectancy, years)
+  let jupiter = calculator.jupiterAge(years);
+  let jupiterExpectancy = calculator.jupiterLeft(lifeExpectancy, years)
+  let venus = calculator.venusAge(years);
+  let venusExpectancy = calculator.venusLeft(lifeExpectancy, years)
+  let mercury = calculator.mercuryAge(years);
+  let mercuryExpectancy = calculator.mercuryLeft(lifeExpectancy, years)
+  let earth = calculator.earthLeft(lifeExpectancy, years);
+  let over = calculator.overExpected(years, lifeExpectancy)
+  if (planet === "Mars") {
+    $(".page-2").hide();
+    $(".results").show();
     $(".chosen-planet").html(planet);
     $(".planet-span").html(mars);
-  } else
-  console.log(lifeExpectancy);
+    $(".planet-left-span").html(marsExpectancy); 
+    if(years > lifeExpectancy) {
+      $(".results").hide();
+      $(".no-way").show();
+      $(".over-lived").html(over)
+    }
+  } else if (planet === "Jupiter") {
+    $(".page-2").hide();
+    $(".results").show();
+    $(".chosen-planet").html(planet);
+    $(".planet-span").html(jupiter);
+    $(".planet-left-span").html(jupiterExpectancy);
+    $(".over-lived").html(over)
+  } else if (planet === "Mercury") {
+    $(".page-2").hide();
+    $(".results").show();
+    $(".chosen-planet").html(planet);
+    $(".planet-span").html(mercury);
+    $(".planet-left-span").html(mercuryExpectancy);
+    $(".over-lived").html(over)
+  } else if (planet === "Venus") {
+    $(".page-2").hide();
+    $(".results").show();
+    $(".chosen-planet").html(planet);
+    $(".planet-span").html(venus);
+    $(".planet-left-span").html(venusExpectancy);
+    $(".over-lived").html(over)
+  } else if (planet === "Earth") {
+    $(".page-2").hide();
+    $(".results").show();
+    $(".chosen-planet").html(planet);
+    $(".planet-span").html(years);
+    $(".planet-left-span").html(earth);
+    $(".over-lived").html(over)
+  }
+  
 
 });
 
