@@ -12,9 +12,11 @@ $("form#submit-planet").submit(function(event) {
   let lifeExpectancy = parseInt($("#expectancy").val());
   let planet = $("input:radio[name=planet]:checked").val();
   let calculator = new AgeCalculator(years, lifeExpectancy);
+  let mars = calculator.marsAge();
   if(planet === "Mars") {
-    console.log();
-    $(".planet-span").html(calculator.marsAge);
+    console.log(planet);
+    console.log(mars)
+    $(".planet-span").html(mars);
   }
 
 });
