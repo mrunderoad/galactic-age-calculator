@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1643997872774" clover="3.2.0">
-  <project timestamp="1643997872774" name="All files">
+<coverage generated="1643997929607" clover="3.2.0">
+  <project timestamp="1643997929607" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="21" coveredelements="21" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="space.js" path="C:\Users\isaac\OneDrive\galactic-age-calculator\src\js\space.js">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
