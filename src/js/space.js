@@ -33,7 +33,7 @@ export class AgeCalculator {
   };
 
   jupiterLeft() {
-    
+    return this.lifeExpectancy / .0084 - this.years / .0084;
   };
 
   // earthLeft() {
