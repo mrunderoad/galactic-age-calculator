@@ -1,3 +1,31 @@
 body {
   background-color: rgb(87, 85, 85);
 }
+
+.jumbotron {
+  text-align: center;
+  background-color: grey;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2%;
+}
+
+.page-1 {
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page-2 {
+  display: none;
+}
+
+.card {
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+}
