@@ -4,13 +4,13 @@ export class AgeCalculator {
   this.lifeExpectancy = lifeExpectancy;    
   };
 
-  mercuryAge() {
+  mercuryAge(years) {
+    return years / .24;
+  };
+
+  mercuryLeft() {
 
   }
-
-  // mercuryLeft() {
-
-  // }
 
   // venusAge(years) {
 
@@ -33,6 +33,10 @@ export class AgeCalculator {
   // }
 
   // jupiterLeft() {
+
+  // }
+
+  // earthLeft() {
 
   // }
 
