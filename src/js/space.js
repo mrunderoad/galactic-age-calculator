@@ -40,8 +40,8 @@ export class AgeCalculator {
     return this.lifeExpectancy - this.years;
   };
 
-  // overExpected() {
+  overExpected() {
 
-  // }
+  }
 
 }

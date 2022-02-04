@@ -46,4 +46,8 @@ describe('AgeCalculator', () => {
   test('should return years left to live on Earth', () => {
     expect(ageCalculator.earthLeft(99, 24)).toEqual(75);
   });
+
+  test('should return amount of years over life expectancy if user enters a number lower than their age', () => {
+    expect(ageCalculator.overExpected(24, 99)).toEqual(-75);
+  });
 });
