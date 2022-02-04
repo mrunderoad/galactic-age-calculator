@@ -24,6 +24,6 @@ describe('AgeCalculator', () => {
   });
 
   test('should return how many Venus years the user has left to live based on age and life expectancy', () => {
-    expect(ageCalculator.venusLeft(99, 24)).toEqual(120.967742);
+    expect(ageCalculator.venusLeft(99, 24)).toEqual(120.96774193548387);
   })
 });

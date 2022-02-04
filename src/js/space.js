@@ -17,7 +17,7 @@ export class AgeCalculator {
   };
 
   venusLeft() {
-
+    return this.lifeExpectancy / .62 - this.years / .62;
   };
 
   // marsAge(years) {
