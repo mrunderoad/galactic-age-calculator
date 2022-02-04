@@ -21,8 +21,8 @@ export class AgeCalculator {
   };
 
   marsAge(years) {
-
-  }
+    return years / 1.88;
+  };
 
   // marsLeft() {
 
