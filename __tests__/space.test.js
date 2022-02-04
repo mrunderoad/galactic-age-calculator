@@ -30,4 +30,8 @@ describe('AgeCalculator', () => {
   test('should convert one year on Earth into one year on Mars', () => {
     expect(ageCalculator.marsAge(1)).toEqual(0.5319148936170213);
   });
+
+  test('should return how many Mars years the user has left ot live based on age and life expectancy', () => {
+    expect(ageCalculator.marsLeft(99, 24)).toEqual(39.893617);
+  });
 });

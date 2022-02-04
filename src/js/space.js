@@ -24,9 +24,10 @@ export class AgeCalculator {
     return years / 1.88;
   };
 
-  // marsLeft() {
+  marsLeft() {
+   
 
-  // }
+  }
 
   // jupiterAge(years) {
 
