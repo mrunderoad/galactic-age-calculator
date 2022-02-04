@@ -20,6 +20,6 @@ describe('AgeCalculator', () => {
   });
 
   test('should convert one year on Earth into one year on Venus', () => {
-    expect(ageCalculator.venusAge(1)).toEqual(1.61290323);
+    expect(ageCalculator.venusAge(1)).toEqual(1.6129032258064517);
   });
 });

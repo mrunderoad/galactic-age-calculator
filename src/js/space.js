@@ -13,8 +13,8 @@ export class AgeCalculator {
   };
 
   venusAge(years) {
-
-  }
+    return years / .62;
+  };
 
   // venusLeft() {
 
