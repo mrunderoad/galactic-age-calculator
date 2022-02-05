@@ -40,7 +40,7 @@ describe('AgeCalculator', () => {
   });
 
   test('should return how many Jupiter years the user has left to live based on age and life expectancy', () => {
-    expect(ageCalculator.jupiterLeft(99, 24)).toEqual(8928.57142857143);
+    expect(ageCalculator.jupiterLeft(99, 24)).toEqual(6.323777403035413);
   });
 
   test('should return years left to live on Earth', () => {

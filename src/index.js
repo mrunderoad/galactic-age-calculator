@@ -24,7 +24,7 @@ $("form#submit-planet").submit(function(event) {
   let badMercury = over / .24;
   let badMars = over / 1.88;
   let badJupiter = over / .62;
-  let badVenus = over / .0084;
+  let badVenus = over / 11.86;
   $("#back").show();
   if (planet === "Mars") {
     $(".page-2").hide();
