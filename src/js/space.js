@@ -43,5 +43,4 @@ export class AgeCalculator {
   overExpected(years, lifeExpectancy) {
     return years - lifeExpectancy;
   }
-
 }
